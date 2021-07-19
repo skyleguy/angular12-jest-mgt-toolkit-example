@@ -3,9 +3,11 @@
   "extends": "./tsconfig.json",
   "compilerOptions": {
     "outDir": "./out-tsc/spec",
+    "module": "commonjs",
     "types": [
       "jest"
-    ]
+    ],
+    "allowJs": true
   },
   "include": [
     "src/**/*.spec.ts",
