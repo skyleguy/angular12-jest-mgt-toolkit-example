@@ -4,7 +4,7 @@ module.exports = {
     preset: 'jest-preset-angular',
     setupFilesAfterEnv: ['<rootDir>/setup-jest.ts'],
     transform: {
-      "^.+\\.(ts|html)$": "ts-jest",
+      "^.+\\.(ts|html)$": "jest-preset-angular",
       "^.+\\.js$": "babel-jest"
     },
     transformIgnorePatterns: [
